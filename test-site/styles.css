@@ -1,0 +1,57 @@
+body {
+	background-color: mediumpurple;
+}
+
+/*
+Padding adjusts white space INSIDE a thing
+Margin makes white space OUTSIDE a thing
+*/
+
+header, main, footer {
+	background-color: black;
+	margin: 5% 10%;
+	padding: 2%;
+}
+
+main, footer {
+	color: white;
+}
+
+/* Heading settings */
+
+header h1 {
+	color: orange;
+	text-align: center;
+}
+
+header img {
+	color: orange; 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@counter-style speech-bubble {
+	system: cyclic;
+	symbols: "\1F4AC";
+	suffix: " ";
+}
+
+ul {
+	list-style-type: speech-bubble;
+}
+
+li {
+	margin: 10px;
+}
+
+/* Links */
+a:link {
+	color: crimson;
+}
+a:visited {
+	color: orange;
+}
+a:hover {
+	text-decoration: none;
+}
