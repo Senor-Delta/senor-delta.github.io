@@ -7,14 +7,30 @@ Padding adjusts white space INSIDE a thing
 Margin makes white space OUTSIDE a thing
 */
 
-header, main, footer {
+header, footer {
 	background-color: black;
-	margin: 5% 10%;
+	margin: 10px 10%;
 	padding: 2%;
+}
+
+nav, main {
+	background-color: black;
+	margin: 10px 10%;
+	margin-bottom: 20px;
+	padding: 10px;
 }
 
 main, footer {
 	color: white;
+}
+
+.hw, h1 {
+	text-align: center;
+}
+article {
+	margin-bottom: 60px;
+	margin-right: 30px;
+	margin-left: 30px;
 }
 
 /* Heading settings */
@@ -31,26 +47,27 @@ header img {
 	margin-right: auto;
 }
 
+/* Thoughts  */
+
 @counter-style speech-bubble {
 	system: cyclic;
 	symbols: "\1F4AC";
 	suffix: " ";
 }
 
-ul {
+.thoughts {
 	list-style-type: speech-bubble;
-}
-
-li {
 	margin: 10px;
 }
 
+
+
 /* Links */
 a:link {
-	color: crimson;
+	color: orange;
 }
 a:visited {
-	color: orange;
+	color: yellow;
 }
 a:hover {
 	text-decoration: none;
